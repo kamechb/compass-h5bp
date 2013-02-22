@@ -1,0 +1,10 @@
+@import "base";
+
+body {
+  width: 960px;
+  margin: auto;
+}
+
+#page-header {
+  @include column-grid-background;
+}
